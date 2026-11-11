@@ -1,0 +1,115 @@
+{
+  "night": {
+    "name": "TokyoNight Night",
+    "description": "A deep blue TokyoNight theme for Chrome.",
+    "colors": {
+      "frame": "#0c0e14",
+      "frame_inactive": "#16161e",
+      "frame_incognito": "#07080c",
+      "frame_incognito_inactive": "#0c0e14",
+      "toolbar": "#24283b",
+      "tab_text": "#c0caf5",
+      "tab_background_text": "#a9b1d6",
+      "bookmark_text": "#c0caf5",
+      "ntp_background": "#1a1b26",
+      "ntp_text": "#c0caf5",
+      "ntp_link": "#7aa2f7",
+      "button_background": "#292e42",
+      "omnibox_background": "#292e42",
+      "omnibox_text": "#c0caf5",
+      "background_tab": "#292e42",
+      "background_tab_incognito": "#0c0e14",
+      "toolbar_button_icon": "#7aa2f7"
+    }
+  },
+  "storm": {
+    "name": "TokyoNight Storm",
+    "description": "A softer blue-gray TokyoNight theme for Chrome.",
+    "colors": {
+      "frame": "#1b1e2d",
+      "frame_inactive": "#1f2335",
+      "frame_incognito": "#0c0e14",
+      "frame_incognito_inactive": "#1b1e2d",
+      "toolbar": "#24283b",
+      "tab_text": "#c0caf5",
+      "tab_background_text": "#a9b1d6",
+      "bookmark_text": "#c0caf5",
+      "ntp_background": "#24283b",
+      "ntp_text": "#c0caf5",
+      "ntp_link": "#7aa2f7",
+      "button_background": "#292e42",
+      "omnibox_background": "#1f2335",
+      "omnibox_text": "#c0caf5",
+      "background_tab": "#1f2335",
+      "background_tab_incognito": "#1b1e2d",
+      "toolbar_button_icon": "#a9b1d6"
+    }
+  },
+  "moon": {
+    "name": "TokyoNight Moon",
+    "description": "A cool, muted TokyoNight theme for Chrome.",
+    "colors": {
+      "frame": "#191b29",
+      "frame_inactive": "#1e2030",
+      "frame_incognito": "#0c0e14",
+      "frame_incognito_inactive": "#191b29",
+      "toolbar": "#222436",
+      "tab_text": "#c8d3f5",
+      "tab_background_text": "#828bb8",
+      "bookmark_text": "#c8d3f5",
+      "ntp_background": "#222436",
+      "ntp_text": "#c8d3f5",
+      "ntp_link": "#82aaff",
+      "button_background": "#2f334d",
+      "omnibox_background": "#1e2030",
+      "omnibox_text": "#c8d3f5",
+      "background_tab": "#1e2030",
+      "background_tab_incognito": "#191b29",
+      "toolbar_button_icon": "#828bb8"
+    }
+  },
+  "dusk": {
+    "name": "TokyoNight Dusk",
+    "description": "A custom TokyoNight theme based on personal Neovim color overrides.",
+    "colors": {
+      "frame": "#23152d",
+      "frame_inactive": "#201924",
+      "frame_incognito": "#0c0e14",
+      "frame_incognito_inactive": "#16161e",
+      "toolbar": "#343a55",
+      "tab_text": "#c0caf5",
+      "tab_background_text": "#a9b1d6",
+      "bookmark_text": "#c0caf5",
+      "ntp_background": "#1e1c2b",
+      "ntp_text": "#c0caf5",
+      "ntp_link": "#0080ff",
+      "button_background": "#292e42",
+      "omnibox_background": "#292e42",
+      "omnibox_text": "#c0caf5",
+      "background_tab": "#292e42",
+      "background_tab_incognito": "#1e1c2b",
+      "toolbar_button_icon": "#ffb723"
+    },
+    "frame_gradient": {
+      "stops": [
+        "#0a2f70",
+        "#16245a",
+        "#2a1840",
+        "#23152d"
+      ],
+      "span": 1600,
+      "inactive": {
+        "toward": "#201924",
+        "amount": 0.55
+      },
+      "incognito": {
+        "toward": "#0c0e14",
+        "amount": 0.7
+      },
+      "incognito_inactive": {
+        "toward": "#16161e",
+        "amount": 0.8
+      }
+    }
+  }
+}

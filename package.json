@@ -1,0 +1,11 @@
+{
+  "name": "tokyonight-chrome-theme",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/palette.mjs",
+    "icons": "for s in 16 48 128; do rsvg-convert -w $s -h $s assets/icon.svg -o assets/icons/icon-$s.png; done",
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1 --directory dist",
+    "package": "npm run build && node scripts/package.mjs"
+  }
+}
