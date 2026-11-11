@@ -41,4 +41,12 @@ npm run package
 
 This builds the themes and writes one zip per variant to `packages/`, such as `packages/tokyonight-dusk-1.0.0.zip`. Each variant is a separate store item. Bump `version` in `package.json` before uploading an update.
 
-The Night, Storm, and Moon palette values are based on [TokyoNight](https://github.com/folke/tokyonight.nvim). The palette reference shared for this project is [TokyoNight Website palette](https://wixdaq.github.io/Tokyo-Night-Website/palette.html).
+## Credits
+
+TokyoNight was created by [enkia](https://github.com/enkia) as the [Tokyo Night VS Code theme](https://github.com/enkia/tokyo-night-vscode-theme) (MIT). [folke](https://github.com/folke) ported it to Neovim as [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) (Apache-2.0), which added the Moon variant. The Night, Storm and Moon colours here come from tokyonight.nvim. Dusk is a custom variant built on Night.
+
+This project contains no code from either theme, only their colour values.
+
+## License
+
+[MIT](LICENSE)
